@@ -1,0 +1,11 @@
+export const SCHEMA_VERSION = 1 as const;
+export type Priority = "low" | "medium" | "high";
+export type ActivityType = "study" | "test" | "review" | "exercise" | "video" | "summary" | "exam";
+export type SessionStatus = "planned" | "done" | "skipped";
+export type HomeworkStatus = "pending" | "in_progress" | "completed";
+export type ExamReadiness = "not_ready" | "studying" | "almost" | "ready";
+export type GradeKind = "exam" | "quiz" | "continuous" | "exercise";
+export type GoalKind = "daily" | "weekly" | "subject";
+export type ThemeMode = "light" | "dark";
+export type TimerMode = "stopwatch" | "pomodoro";
+export type PomodoroPhase = "work" | "break";

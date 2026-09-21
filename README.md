@@ -1,2 +1,31 @@
-# studyflow
-StudyFlow — personal study planner for Persian-speaking students (RTL, local-first)
+# StudyFlow
+
+داشبورد شخصی برای مدیریت درس، برنامه مطالعه، تکالیف، امتحان‌ها، نمره‌ها و پیگیری پیشرفت تحصیلی.
+
+رابط کاربری فارسی و راست‌چین است. داده‌ها روی دستگاه کاربر ذخیره می‌شوند و به سرور ارسال نمی‌شوند.
+
+## Overview
+
+StudyFlow یک وب‌اپ آفلاین‌اول است.
+
+## Features
+
+- داشبورد وضعیت روزانه و هفتگی
+- مدیریت درس‌ها، برنامه، تقویم، کارها، تکالیف، امتحان و نمره
+- تایمر، پومودورو و حالت تمرکز
+- آمار، استریک و اهداف
+- یادداشت و جستجوی سراسری
+- حالت روشن/تیره
+- خروجی و ورود JSON با اعتبارسنجی
+
+## Tech Stack
+
+React 19, TanStack Start, Zustand, localStorage, Tailwind CSS v4, Recharts, TypeScript.
+
+## Data Storage
+
+کلید `studyflow.v1` در localStorage. لایه ذخیره از UI جدا است.
+
+## GitHub Pages
+
+این پروژه SSR است و روی GitHub Pages استاتیک به‌صورت پیش‌فرض اجرا نمی‌شود. نسخه زنده از پیش‌نمایش اپ و استقرار Vercel قابل دسترس است.

@@ -1,0 +1,17 @@
+node_modules
+dist
+.output
+.vinxi
+.nitro
+.tanstack
+*.log
+.DS_Store
+.env
+.env.*
+!.env.example
+coverage
+playwright-report
+test-results
+.grok/og-pending
+screenshots
+artifacts
